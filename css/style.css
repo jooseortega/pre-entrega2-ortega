@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,400;1,500&display=swap');
+
+body{background-color: darkgrey;}
+
+.container-fluid div div{
+    border: 1px solid black;
+}
+/*css reset*/
+*{padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+body {font-family: 'Kanit', sans-serif;
+   
+
+
+}
+
+
+/*navegacion*/
+header {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../img/geriatrico.2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+ 
+nav {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.logo {
+    width: 30px;
+    margin-left: 20px;
+
+}
+
+.bar-btn {
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
